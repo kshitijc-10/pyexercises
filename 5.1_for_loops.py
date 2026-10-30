@@ -37,7 +37,7 @@ names = ["kshitij", "soundarya", "aryan", "keshav", "vasu", "David", "Eve", "Fra
 
 print("List of names and their lengths:")
 
-i = "Alice"
+i = "aryan"
 
 for i in names:
     length = len(i)
