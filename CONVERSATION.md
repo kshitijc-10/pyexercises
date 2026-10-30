@@ -359,3 +359,61 @@ original_list.sort(reverse=True)
 ```
 
 Which one keeps the original list unchanged?
+
+---
+## 2026-10-30 18:03, in .
+
+**Me:** what are for loops in python
+
+**Tutor:**
+
+A for loop lets you repeat a block of code once for every item in a collection (like a list or a string).
+
+```python
+# Looping over a list of toy campaign names
+campaigns = ["summer_sale", "winter_clearance", "spring_launch"]
+
+for name in campaigns:
+    # TODO: print the name of each campaign
+    pass
+```
+
+What built-in function gives you the items one by one from the list?
+
+---
+## 2026-10-30 18:04, in .
+
+**Me:** how to use for loops in pyton
+
+**Tutor:**
+
+A for loop repeats a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+for product in products:
+    # TODO: print each product name
+```
+
+Which built-in function gives you the length of the list `products`?
+
+---
+## 2026-10-30 18:04, in .
+
+**Me:** what is syntax of for loop witha an example
+
+**Tutor:**
+
+A for loop iterates over a sequence (like a list or string) and executes a block of code for each item.
+
+```python
+# Loop over a list of numbers
+numbers = [10, 20, 30]
+
+for num in numbers:
+    print(num * 2)  # TODO: Replace with your own operation
+```
+
+What is the sequence you want to loop over?
