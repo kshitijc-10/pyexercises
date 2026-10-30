@@ -48,10 +48,10 @@ else:
 
 
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: to input two numbers from the user
+# 2. Process: use the four arithmetic operations to calculate the sum, difference, product, and quotient of the two numbers.
+# 3. Out: display the results of the four arithmetic operations.
+# 4. What happens when the second number is zero, and why:we will display a message indicating that division is not possible when the second number is zero. This is because division by zero is undefined in mathematics, and attempting to perform this operation would result in an error.
 
 
 
