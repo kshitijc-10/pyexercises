@@ -312,3 +312,50 @@ for num in numbers:
 ```
 
 What does the modulus operator `%` return for even numbers?
+
+---
+## 2026-10-30 17:38, in .
+
+**Me:** how to sort list in python
+
+**Tutor:**
+
+Sorting a list in Python.
+
+Use the built-in `sorted()` function or the list method `sort()`.
+`sorted()` returns a new list, while `list.sort()` sorts the list in place.
+
+```python
+# TODO: replace the toy list with your own list
+toy_list = [3, 1, 4, 1, 5, 9, 2]
+
+# ascending order (default)
+sorted_list = sorted(toy_list)
+
+# descending order
+sorted_list_desc = sorted(toy_list, reverse=True)
+
+# in-place sort (no new list created)
+toy_list.sort()
+```
+
+Which argument controls the order direction?
+
+---
+## 2026-10-30 17:39, in .
+
+**Me:** how to reverse sort list in python
+
+**Tutor:**
+
+Reversing the order of a list is called sorting in descending order.
+
+```python
+# descending sort
+sorted_list = sorted(original_list, reverse=True)
+
+# or in-place
+original_list.sort(reverse=True)
+```
+
+Which one keeps the original list unchanged?

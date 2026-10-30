@@ -25,10 +25,22 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: input the list used in exercise 4.0
+# 2. Process: use the sorted() function to sort the list in ascending and descending order, use the reverse() method to reverse the list, and use the sort() method to sort the list in place.
+# 3. Out: print the list in ascending order, descending order, reversed order, and sorted order using the sort() method.
+# 4. My four orders, and which ones modify the original: The `sorted()` function returns a new list, so it doesn't modify the original. The `reverse()` method modifies the list in place. The `sort()` method also modifies the list in place.
 
 
 # Your code below
+original_list = [1, 2, 3, 4, 5, 6]
+ascending = sorted(original_list)
+print("Ascending order:", ascending)
+descending = sorted(original_list, reverse=True)
+print("Descending order:", descending)
+reversed_list = original_list.copy()
+reversed_list.reverse()
+print("Reversed order:", reversed_list)
+sorted_list = original_list.copy()
+sorted_list.sort()
+print("Sorted using sort():", sorted_list)
+
