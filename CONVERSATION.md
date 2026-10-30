@@ -125,3 +125,90 @@ print(clean_title(alpha))  # summer_sale_2024
 ```
 
 What method removes spaces and what method makes the text lowercase?
+
+---
+## 2026-10-30 15:46, in .
+
+**Me:** how to use addition function in python
+
+**Tutor:**
+
+The concept is how to use the built-in `sum` function to add numbers.
+
+```python
+# TODO: Replace the list with your own numbers
+numbers = [2, 3, 5]
+total = sum(numbers)  # sum() adds all items in an iterable
+print(total)
+```
+
+What is the first argument that `sum()` expects?
+
+---
+## 2026-10-30 15:51, in .
+
+**Me:** how to use difference function in python
+
+**Tutor:**
+
+The concept is computing the difference between two numbers or lists.
+
+Here is a simple pattern using the `difference` function from the `set` type:
+
+```python
+# TODO: import the set type if needed
+
+# TODO: create two sets with some numbers
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5, 6}
+
+# TODO: compute the difference (elements in set_a but not in set_b)
+result = set_a.difference(set_b)
+
+print(result)  # Expected output: {1, 2}
+```
+
+What is the name of the method that computes the difference between two sets?
+
+---
+## 2026-10-30 15:51, in .
+
+**Me:** how to use multiplication function in python
+
+**Tutor:**
+
+Multiplication is done with the * operator.
+
+```python
+def multiply(a, b):
+    # TODO: return the product of a and b
+    pass
+
+# Example usage
+result = multiply(3, 4)
+print(result)  # Should print 12
+```
+
+What is the operator used for multiplication in Python?
+
+---
+## 2026-10-30 15:52, in .
+
+**Me:** how to use division function in python
+
+**Tutor:**
+
+Division in Python is done with the `/` operator.
+It always returns a float, even if the division is exact.
+
+```python
+# TODO: compute the division of two numbers
+def divide_numbers(a, b):
+    result = a / b
+    return result
+
+# Example usage (not part of your code)
+print(divide_numbers(10, 2))  # 5.0
+```
+
+What is the return type of `divide_numbers(7, 2)`?
